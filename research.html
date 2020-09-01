@@ -61,55 +61,14 @@ I also study the security and privacy issues in cyber-physical energy systems. A
 -->
 
 
-<h3 id="pub">Secure and Privacy-Preserving Computation in Mobile and Cloud-Assisted Health Systems</h3>
+<h3 id="pub">Hardware (Supply-chain) Security</h3>
 <p>
-The healthcare industry is increasing the use of mobile telecommunication, network technologies, and cloud computing technologies for delivering healthcare services, whereas lagging behind in addressing known security and privacy problems. In an mHealth systems, threats may come from patients, insiders, and outsiders at the following aspects: misuse of patient identities, unauthorized access or modification of personal health information, or disclosure of personal health information. The increased sharing and use of health and medical data raise privacy concerns such as disclosure of sensitive health data through sharing or data breaches, discrimination in employment or insurance based on medical conditions or even genetic predisposition. The benefits of information technologies will be elusive if these security and privacy challenges are not adequately addressed.
+
 </p>
 
-<h4>Privacy-Preserving Learning on Biomedical Sensing Data</h4>
-<p> Users generate a high volume of biomedical data during health monitoring, which can be used by the mobile health server for training predictive models for disease diagnosis and treatment. However, the biomedical sensing data raise serious privacy concerns. We propose a scheme that keeps the training samples private while enabling accurate construction of predictive models. We specifically consider logistic regression models which are widely used for predicting dichotomous outcomes in healthcare, and decompose the logistic regression problem into small subproblems over two types of distributed sensing data, i.e., horizontally partitioned data and vertically partitioned data. The subproblems are solved using individual private data, and thus mHealth users can compute local optimal results based on their own private data. The data sharing process only takes place when aggregating these local optimal results. This process reveals less sensitive information and can be protected by efficient partially homomorphic encryption protocols. Through the combination of a distributed algorithm and a modified version of homomorphic encryption, we gave a scalable and practical solution for privacy-preserving learning in mHealth.
-</p> 
-<center><img src="folder/TCBBframework.jpg" alt="Architecture of mobile health systems" style="width: 500px; height: 250px" itemprop="image"></center>
-
-Selected publications
-<ul>
-	<li class="pub"><a>Private Data Analytics on Biomedical Sensing Data via Distributed Computation</a><br>
-	<b>Y. Gong</b>, Y. Fang, and Y. Guo<br>
-	<i>IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB)</i>, vol. 13, no. 3, pp. 431-444, May/June 2016.
-</ul>
-
-
-<h4>Privacy and Quality Control in Mobile Cloud Computing (for Health Data Collection)</h4>
-<p> Mobile cloud computing can leverage the advanced sensing, computing, and communication capabilities of mobile devices (i.e., mobile computing entities) to provide mobile cloud computing services, which has great potential in supporting healthcare systems. Despite these promising applications, there are two major challenges in utilizing proximate mobile computing resources, i.e., the quality control of computing results, and the security and privacy issues of mobile computing entities. My research investigated such challenges. We have proposed a framework for task allocation in mobile cloud computing which addresses both challenges. We designed a new data structure based on private spatial decomposition, which contains both reputation and location distribution information, and the cloud computing provider can only learn sanitized location information from such data with differential privacy guarantee. Based on the data, the cloud computing provider can use geocast techniques to allocate tasks based on the sanitized dataset. In order to ensure high service quality for the mobile cloud computing service, we further developed an efficient search strategy that finds the optimal geocast region. We have conducted extensive experiments based on real-world datasets to demonstrate the effectiveness of the proposed framework.
-</p>
-<center><img src="folder/TETCframework.jpg" alt="Privacy-preserving framework for task allocation in mobile cloud computing" style="width: 550px; height: 240px" itemprop="image"></center>
-
-Selected Publications
-<ul>
-	</li><li class="pub"><a>Protecting Location Privacy for Task Allocation in Ad-Hoc Mobile Cloud Computing</a><br>
-	<b>Y. Gong</b>, C. Zhang, Y. Fang, and J. Sun<br>
-    accepted for publication in <i>IEEE Transactions on Emerging Topics in Computing (TETC)</i>, September 2015. 
-
-	</li><li class="pub"><a>Optimal Task Recommendation for Mobile Crowdsourcing with Privacy Control</a><br>
-    <b>Y. Gong</b>, L. Wei, Y. Guo, C. Zhang, and Y. Fang<br>
-    <i>IEEE Internet of Things Journal (IoT-J)</i>, vol. 3, no. 5, pp. 745-756, Oct. 2016.<br>
-</ul>
-
-
-<h4>Effective Resource Utilization for Cloud Computing</h4>
-<p> The infrastructures behind cloud computing are massive data centers, which consume significant amount of power. Several leading cloud providers such as Google and Microsoft have used on-site renewable generators to provide power to their data centers. However, renewable energy is intermittent, uncontrollable, and unpredictable, and thus how to effectively utilize the renewable energy in data centers is a big challenge. We proposed a comprehensive framework which incorporates both delay-tolerant workloads and cheap thermal storages to address this problem, and studied the problem of joint workload scheduling and thermal storage management in renewable-powered data centers such that the utilization of renewable energy is maximized and the cost of power grid energy usage is minimized. We developed an efficient online and distributed algorithm to tackle the randomness of renewable generation, electricity prices, and workload arrivals in the framework. Our algorithm is simple and can be implemented distributively at each front-end proxy and each back-end data center. We showed the effectiveness of our proposed algorithms via numerical experiments based on real-world data sets.
-</p>
-
-Selected publications
-<ul>
-    </li><li class="pub"><a>Energy and Network Aware Workload Management for Sustainable Data Centers with Thermal Storage</a><br>
-    Y. Guo, <b>Y. Gong</b>, Y. Fang, P. Khargonekar, and X. Geng<br>
-    <i>IEEE Transactions on Parallel and Distributed Systems (TPDS)</i>, Vol. 25, No. 8, pp. 2030-2042, August 2014. 	
-</ul>
-<hr>
 
 <h3 id="pub">Security and Privacy in Cyber-Physical Energy Systems</h3>
-<p> In incentive-based demand response (IDR) programs, fine-grained metering data are needed to profile, reward, and provide feedback to customers, raising serious privacy concerns. Such data are both attributable and fine-grained during this process, excluding some popular privacy-preserving approaches. We have proposed an integrated privacy-aware solution which protects customer privacy by separating the real identity and the fine-grained metering data. We guarantee the anonymity of customers and the integrity of the system throughout the registration, metering, querying, settlement, and revocation processes of IDR programs. As far as we know, we are the first to identify privacy issues for IDR programs in the smart grid.
+<p> 
 </p>
 <center><img src="folder/TSGframework.jpg" alt="System diagram" style="width: 500px; height: 250px" itemprop="image"></center>
 <p>
