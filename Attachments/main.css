@@ -23,7 +23,7 @@ body {
 }
 
 .header {
-	background-color:rgba(0,102,204,0.5);
+	background-color:rgba(0,102,204,1);
 	margin-left: auto;
 	margin-right: auto;
 	padding:0.5% 2% 0.5% 2%;
@@ -77,9 +77,9 @@ li.pub {
 	font-family:'Lato',gfont; 
 	text-rendering:optimizeLegibility;
 	font-size:100%;
-	font-weight:auto;
+	font-weight:bold;
 	height:35px;
-	background-color:rgba(0,102,204,0.5);
+	background-color:rgba(0,102,204,1);
 	line-height:35px; 
 	padding:0% 1% 0% 1%;
 	display:inline; 
