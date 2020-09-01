@@ -1,2 +1,2 @@
-# yu_bi.github.io
+# yubi-ece.github.io
 personal page
