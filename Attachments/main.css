@@ -23,7 +23,7 @@ body {
 }
 
 .header {
-	background-color: #9900;
+	background-color:rgba(0,102,204,0.5);
 	margin-left: auto;
 	margin-right: auto;
 	padding:0.5% 2% 0.5% 2%;
@@ -79,7 +79,7 @@ li.pub {
 	font-size:100%;
 	font-weight:bold;
 	height:35px;
-	background-color:#9900;
+	background-color:rgba(0,102,204,0.5);
 	line-height:35px; 
 	padding:0% 1% 0% 1%;
 	display:inline; 
