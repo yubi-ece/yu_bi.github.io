@@ -1,0 +1,7 @@
+1) Create The Working Directory
+2) Set up the symbolic links 
+
+ln -s /net/common/cad/NCSU/DesignKits/ncsu-cdk-1.6.0.beta/cdssetup cdssetup
+ln -s /net/common/cad/NCSU/DesignKits/ncsu-cdk-1.6.0.beta/cdssetup/display.drf display.drf
+ln -s /net/common/cad/NCSU/DesignKits/ncsu-cdk-1.6.0.beta/cdssetup/cdsinit .cdsinit
+ln -s /net/common/cad/NCSU/DesignKits/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv .cdsenv
